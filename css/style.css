@@ -5,6 +5,13 @@ body{
     background-position: center;
 }
 
+.img-login{
+    max-width: 7em;
+	pointer-events: none;
+    width: 90%;
+    padding: 25px;
+}
+
 .login-page{
     width: 360px;
     padding: 10% 0 0 ;
@@ -21,7 +28,7 @@ body{
     text-align: center;
 }
 
-.form h1 {
+.title-login {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     color: #314637;
@@ -58,7 +65,7 @@ body{
 
 
 .form button:hover,.form button:active{
-    background: #00442D;
+    background: #6DBDFF;
 }
 
 .form .msg{

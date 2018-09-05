@@ -12,7 +12,7 @@ function validation(){
    
    // Condições do formulario
    if(user==userName && pass==userPass){
-    alert("Cadastro efetuado com sucesso!");
+    alert("Login efetuado com sucesso!");
      return true;
    }else if(user=="" && pass==""){
      alert("Digite usuário e senha pra continuar");
